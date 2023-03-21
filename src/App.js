@@ -9,6 +9,8 @@ export default function App() {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(form.current);
+   alert("Message sent successfully!")
+  
 
     emailjs
       .sendForm(
